@@ -1,0 +1,337 @@
+.header {
+
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(75, 156, 211);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
+  z-index: 100;
+}
+
+.left-section {
+  width: 500;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.home,
+.past,
+.answers {
+
+  width: 105px;
+  height: 55px;
+  font-family: Lexend, Arial;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: opacity 0.15s;
+  transition: background-color 0.15s;
+}
+
+
+
+.home:hover,
+.past:hover,
+.answers:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: white;
+}
+
+.main-content {
+  background-color: white;
+  height: 400px;
+  display: flex;
+  padding-top: 80px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.text {
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+
+.sponsors {
+  background-color: rgb(75, 156, 211);
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sponsors-1 {
+  background-color: rgb(75, 156, 211);
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sponsors-1 {
+  background-color: white;
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 100px;
+}
+
+.sponsors-2 {
+  background-color: white;
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: px;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.big {
+  display:flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 150px;
+  row-gap: 100px;
+}
+.sponsor-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+
+.sponsor {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding-left: 50px;
+}
+.image {
+  width: 150px;
+}
+
+.image2 {
+  width: 250px;
+}
+
+
+
+.wolfram {
+  margin-top: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.dropbtn {
+  height: 55px;
+  font-family: Lexend, Arial;
+  font-weight: 500;
+  background-color: rgb(75, 156, 211);
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition: opacity 0.15s;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: opacity 0.15s;
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  opacity: 0.7;
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  opacity: 0.7;
+  background-color: white;
+}
+
+a {
+  font-family: Lexend, Arial;
+  color: black;
+  text-decoration: none;
+}
+
+.tests {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.aboutus {
+  display: flex;
+  font-family: Lexend, Arial;
+  font-weight: 400;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.us-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 160px;
+  row-gap: 50px;
+}
+
+.image1 {
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.Erik {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 160px;
+  row-gap: 5px;
+}
+
+.Name {
+  display: flex;
+  font-size: 40px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.Role {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.center {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 160px;
+  row-gap: 7px;
+}
+
+.whaq {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  font-family: Lexend, Arial;
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  width: 350px;
+}
+
+
+@media (max-width: 1400px) {
+  .us-grid {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .us-grid {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+}
+
+
+
+@media (max-width: 1400px) {
+  .sponsor-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+  }
+}
